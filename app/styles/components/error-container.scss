@@ -1,0 +1,15 @@
+.error-container {
+  text-align: center;
+
+  animation: fade-in 300ms ease-in-out forwards;
+  
+  span {
+    font-size: 20px;
+    color: #C62828;
+  }
+}
+
+@keyframes fade-in {
+  0% { opacity:  0; }
+  100% { opacity:  1; }
+}

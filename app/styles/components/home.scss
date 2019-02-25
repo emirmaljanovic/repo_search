@@ -1,0 +1,63 @@
+.home-page {
+  .form-wrapper {
+    position: relative;
+
+    input {
+      width: 600px;
+      height: 70px;
+      padding: 20px 65px 20px 40px;
+  
+      border: none;
+      outline: none;
+  
+      border-radius: 30px;
+  
+      background-color: rgb(245, 249, 252);
+  
+      color: #828282;
+  
+      font-size: 18px;
+      font-weight: 600;
+  
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: rgb(191,195,198);
+      }
+  
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: rgb(191,195,198);
+      }
+  
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: rgb(191,195,198);
+      }
+      
+      &:-moz-placeholder { /* Firefox 18- */
+        color: rgb(191,195,198);
+      }
+    }
+
+    .check-icon {
+      position: absolute;
+      top: 50%;
+      left: auto;
+      right: 15px;
+
+      cursor: pointer;
+
+      transform: translateY(-50%);
+      
+      display: block;
+
+      width: 45px;
+      height: 45px;
+      background-image: url("../assets/CheckmarkButton.svg");
+      background-size: 45px 45px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .form-wrapper input {
+      width: 100%;
+    }
+  }
+}

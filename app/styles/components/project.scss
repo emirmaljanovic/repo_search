@@ -1,0 +1,22 @@
+.project-details {
+
+  .content-wrapper {
+    .title {
+      font-weight: 600;
+      font-size: 26px;
+      color: rgb(72,72,72);
+    }
+
+    .readme {
+      display: flex;
+      flex-flow: column;
+      margin-top: 20px;
+
+      pre, code {
+        overflow-x: auto;
+        white-space: pre-wrap;       /* Since CSS 2.1 */
+        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+      }
+    }
+  }
+}
